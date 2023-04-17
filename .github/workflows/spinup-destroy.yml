@@ -7,12 +7,12 @@ on:
 env:
   IMAGE_REGISTRY_URL: ghcr.io
   AZURE_RESOURCE_GROUP: cd-with-actions
-  AZURE_APP_PLAN: actions-ttt-deployment
-  AZURE_LOCATION: '"Central US"'
+  AZURE_APP_PLAN: actions-deployment
+  AZURE_LOCATION: '"East US"'
   ###############################################
   ### Replace <username> with GitHub username ###
   ###############################################
-  AZURE_WEBAPP_NAME: vladishlove-ttt-app
+  AZURE_WEBAPP_NAME: vladishlove-app
 
 jobs:
   setup-up-azure-resources:
